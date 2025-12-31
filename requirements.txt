@@ -1,0 +1,21 @@
+# ЯДРО
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# БАЗА ДАННЫХ (НАЧНИ С SQLite - ПРОЩЕ!)
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+
+# АВТОРИЗАЦИЯ (УПРОЩЕННАЯ, ПОКА БЕЗ JWT)
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# ВАЛИДАЦИЯ НОМЕРОВ ТЕЛЕФОНОВ (ОБЯЗАТЕЛЬНО!)
+phonenumbers==8.13.22
+
+# ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ
+python-dotenv==1.0.0
+
+# ЛОГИРОВАНИЕ
+loguru==0.7.2
